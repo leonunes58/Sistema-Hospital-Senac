@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAC Home</title>
+    <link rel="stylesheet" href="css/assents.css">
+    <link rel="icon" href="img/senac-1.webp" >
+</head>
+<body>
+    <div class="container1">
+        <div class="lupa-container">
+            <img src="img/pesquisa-de-lupa.png" alt="" class="img-lupa">
+        </div>
+        <div class="atendimento-container">
+            <label for="atendimento" class="atendimento-label">Atendimento:</label><br>
+            <input type="text" class="input-atendimento" name="atendimento">
+        </div>
+        <div class="prontuario-container">
+            <label for="prontuario" class="prontuario-label">Prontuário:</label><br>
+            <input type="text" class="input-prontuario" name="prontuario">
+        </div>
+        <div class="paciente-container">
+            <label for="paciente" class="paciente-label">Paciente:</label><br>
+            <input type="text" class="input-paciente" name="paciente">
+        </div>
+        <div class="sexo-container">
+            <label for="sexo" class="sexo-label">Sexo:</label><br>
+            <select name="sexo" id="sexo-select">
+                <option value="masculino">M</option>
+                <option value="feminino">F</option>
+            </select>
+        </div>
+        <div class="nascimento-container">
+            <label for="nascimento" class="nascimento-label">Nascimento:</label><br>
+            <input type="date" class="input-nascimento" name="nascimento">
+        </div>
+        <div class="leito-container">
+            <label for="leito" class="leito-label">Leito:</label><br>
+            <input type="text" class="input-leito" name="leito">
+        </div>
+        <div class="data-entrada-container">
+            <label for="data-entrada" class="data-entrada-label">Data de Entrada:</label><br>
+            <input type="date" class="input-data-entrada" name="data-entrada">
+        </div>
+        
+    </div>
+
+    <div class="container2">
+        <div class="container1-opcoes">
+            <ul>
+                <li class="btn option--1">Diagnósticos</li>
+                <li class="btn option--2">Equipamentos</li>
+                <li class="btn option--3">Exames Laboratoriais</li>
+                <li class="btn option--4">Medicamentos</li>
+                <li class="btn option--5">Orientações de Alta</li>
+                <li class="btn option--6">Prescrisções</li>
+                <li class="btn option--7">Receita</li>
+                <li class="btn option--8">Sinais Vitais e Monitorização</li>
+                <li class="btn option--9">Dispositivos</li>
+                <li class="btn option--10">Evoluções</li>
+                <div class="options10 desativado-Option">
+                    <li class="btn2 option--evolucao">Evolução</li>
+                    <li class="btn2 option--evolucao-LPP">Evolução LPP</li>
+                </div>
+                
+            </ul>
+        </div>
+
+        <div class="container2-evolucoes">
+            <div class="container-evolucao desativado-Container">
+                <p class="texto-evolucao">Recebo paciente M.S.T 30 anos, masculino, vítima de capotamento de ônibus. Sem condições de colóquios. Em uso de colar cervical e imobilizado em maca rígida, Glasgow 9, pupilas midrioticas, VAA. Puncionado AVP em MSE abocath 18 infundindo morfina 10ml em BI. Em NPO, deformidade abdominal, SV estáveis  (FC 100 bpm, PA 54/ 36mmhg, PAM 45mmhg, Sat 86%). Eliminações ausentes, lesão presente em região sacra. Paciente encaminhado para UTI</p>
+            </div>
+            <div class="container-evolucao-lpp desativado-Container">
+                <div class="evolucao-1">
+                    <img src="img/evolucao-1.png" alt="" class="img-vertical">
+                    <p class="texto-evolucao">Realizado troca de curativo, lesão por pressão grau 4 em região sacra extensa e profunda. Apresenta pontos de necrose e fibrina em bordas, presença de secreção. Realizado curativo oclusivo com uso de  papaína, SF 0,9% e AGE em bordas.</p>
+                </div>
+                <div class="evolucao-2">
+                    <img src="img/evolucao-2.png" alt="" class="img-horizontal-menor">
+                    <p class="texto-evolucao">Realizado troca de curativo, lesão por pressão grau 4 em região sacra extensa e profunda. Apresenta pontos de necrose e fibrina em bordas, presença de secreção. Realizado curativo oclusivo com uso de  papaína, SF 0,9% e AGE em bordas.</p>
+                </div>
+                <div class="evolucao-3">
+                    <img src="img/evolucao-3.png" alt="" class="img-horizontal-menor">
+                    <p class="texto-evolucao">Realizado troca de curativo, lesão por pressão grau 3 em região sacra extensa e profunda, perda da espessura total do tecido, com exposição se tendões e músculos, apresenta alta secreção. Realizado curativo oclusivo com uso de  papaína, SF 0,9% e AGE em bordas.</p>
+                </div>
+                <div class="evolucao-4">
+                    <img src="img/evolucao-4.png" alt="" class="img-horizontal-maior">
+                </div>
+                <div class="evolucao-5">
+                    <img src="img/evolucao-5.png" alt="" class="img-horizontal-maior">
+                </div>
+                <div class="evolucao-6">
+                    <img src="img/evolucao-6.png" alt="" class="img-vertical">
+                    <p class="texto-evolucao">Lesão por pressão grau 1 em região sacra na em bordas, sem presença de secreçães,pele intacta com vermelhidão. Tratado com  curativo oclusivo com uso de  papaína, SF 0,9% e AGE em bordas. Realizado mudança de decúbito</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="javascript/interatividade.js"></script>
+</body>
+</html>
